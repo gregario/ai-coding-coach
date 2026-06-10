@@ -1,0 +1,27 @@
+{
+  "name": "ai-coding-coach",
+  "version": "0.1.0",
+  "description": "Score your AI coding sessions. Reduce spend by coaching the habits that waste credits.",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "ai-coding-coach": "./src/cli/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.800.0",
+    "@aws-sdk/credential-providers": "^3.800.0",
+    "p-limit": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.0",
+    "vitest": "^3.2.0",
+    "typescript": "^5.8.0"
+  },
+  "license": "MIT"
+}
