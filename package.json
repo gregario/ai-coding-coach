@@ -5,7 +5,29 @@
   "type": "module",
   "main": "src/index.ts",
   "bin": {
-    "ai-coding-coach": "./src/cli/index.ts"
+    "ai-coding-coach": "src/cli/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "ai",
+    "coding",
+    "coach",
+    "claude",
+    "copilot",
+    "scoring",
+    "developer-tools",
+    "productivity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregario/ai-coding-coach.git"
+  },
+  "author": "gregario",
+  "engines": {
+    "node": ">=20"
   },
   "scripts": {
     "test": "vitest run",
