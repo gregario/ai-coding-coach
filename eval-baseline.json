@@ -1,0 +1,925 @@
+{
+  "version": "1.0.0",
+  "entries": [
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-AI-Factory-projects-ai-book-engine/9f61f142-3c13-45a7-9713-9db4e5fcd40a.jsonl",
+      "expectedOverall": {
+        "min": 6.5,
+        "max": 7.5
+      },
+      "expectedYegge": {
+        "min": 6,
+        "max": 6
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "context_discipline": {
+          "min": 5.5,
+          "max": 7.5
+        },
+        "verification_behaviour": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "evidence_seeking": {
+          "min": 7.5,
+          "max": 8.5
+        },
+        "plan_before_code": {
+          "min": 5.5,
+          "max": 7.5
+        },
+        "trust_calibration": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "session_hygiene": {
+          "min": 3.5,
+          "max": 7.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-personal-ai-agent-ecosystem/18e99b34-44f9-4b71-8031-92ae2614677b.jsonl",
+      "expectedOverall": {
+        "min": 4.5,
+        "max": 6.5
+      },
+      "expectedYegge": {
+        "min": 5,
+        "max": 5
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 4.5,
+          "max": 5.5
+        },
+        "context_discipline": {
+          "min": 3.5,
+          "max": 4.5
+        },
+        "verification_behaviour": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "evidence_seeking": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "plan_before_code": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "trust_calibration": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "session_hygiene": {
+          "min": 2.5,
+          "max": 3.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-anthropic-architect/3a2cb764-8569-4d90-8c91-d33601ed1dd8.jsonl",
+      "expectedOverall": {
+        "min": 6.7,
+        "max": 8
+      },
+      "expectedYegge": {
+        "min": 6,
+        "max": 6
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "context_discipline": {
+          "min": 5.5,
+          "max": 7.5
+        },
+        "verification_behaviour": {
+          "min": 7.5,
+          "max": 8.5
+        },
+        "evidence_seeking": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "plan_before_code": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "trust_calibration": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "session_hygiene": {
+          "min": 5.5,
+          "max": 7.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-AI-Factory-projects-ai-book-engine/c17069f5-90fc-463a-88cb-afd65aa52d85.jsonl",
+      "expectedOverall": {
+        "min": 6.5,
+        "max": 7.7
+      },
+      "expectedYegge": {
+        "min": 5,
+        "max": 5
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "context_discipline": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "verification_behaviour": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "evidence_seeking": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "plan_before_code": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "trust_calibration": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "session_hygiene": {
+          "min": 4.5,
+          "max": 7.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-AI-Factory-projects-ai-book-engine/4f9552bb-07a1-4137-9b41-b3700fd3c12f.jsonl",
+      "expectedOverall": {
+        "min": 8,
+        "max": 9
+      },
+      "expectedYegge": {
+        "min": 6,
+        "max": 6
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 8.5,
+          "max": 9.5
+        },
+        "context_discipline": {
+          "min": 7.5,
+          "max": 9.5
+        },
+        "verification_behaviour": {
+          "min": 7.5,
+          "max": 8.5
+        },
+        "evidence_seeking": {
+          "min": 7.5,
+          "max": 8.5
+        },
+        "plan_before_code": {
+          "min": 8.5,
+          "max": 9.5
+        },
+        "trust_calibration": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "session_hygiene": {
+          "min": 8.5,
+          "max": 9.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-anthropic-architect/cccee40c-8133-43a7-be70-3c05e993cf53.jsonl",
+      "expectedOverall": {
+        "min": 6.7,
+        "max": 7.7
+      },
+      "expectedYegge": {
+        "min": 6,
+        "max": 6
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "context_discipline": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "verification_behaviour": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "evidence_seeking": {
+          "min": 5.5,
+          "max": 7.5
+        },
+        "plan_before_code": {
+          "min": 7.5,
+          "max": 9.5
+        },
+        "trust_calibration": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "session_hygiene": {
+          "min": 5.5,
+          "max": 8.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-personal-ai-agent-ecosystem/5839a65a-8ea8-4930-901e-9850201ef82d.jsonl",
+      "expectedOverall": {
+        "min": 7,
+        "max": 8.3
+      },
+      "expectedYegge": {
+        "min": 6,
+        "max": 6
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "context_discipline": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "verification_behaviour": {
+          "min": 7.5,
+          "max": 8.5
+        },
+        "evidence_seeking": {
+          "min": 7.5,
+          "max": 8.5
+        },
+        "plan_before_code": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "trust_calibration": {
+          "min": 7.5,
+          "max": 8.5
+        },
+        "session_hygiene": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 6.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-personal-ai-agent-ecosystem/fcc5eaab-01ca-423a-b240-92fa6ad00b30.jsonl",
+      "expectedOverall": {
+        "min": 7,
+        "max": 8.5
+      },
+      "expectedYegge": {
+        "min": 7,
+        "max": 7
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "context_discipline": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "verification_behaviour": {
+          "min": 4.5,
+          "max": 7.5
+        },
+        "evidence_seeking": {
+          "min": 7.5,
+          "max": 8.5
+        },
+        "plan_before_code": {
+          "min": 8.5,
+          "max": 9.5
+        },
+        "trust_calibration": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "session_hygiene": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-AI-Factory-projects-ai-book-engine/e25bebf9-2272-47af-9eae-0ae36c399bd9.jsonl",
+      "expectedOverall": {
+        "min": 7.699999999999999,
+        "max": 8.7
+      },
+      "expectedYegge": {
+        "min": 6,
+        "max": 6
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 7.5,
+          "max": 9.5
+        },
+        "context_discipline": {
+          "min": 7.5,
+          "max": 8.5
+        },
+        "verification_behaviour": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "evidence_seeking": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "plan_before_code": {
+          "min": 8.5,
+          "max": 9.5
+        },
+        "trust_calibration": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "session_hygiene": {
+          "min": 8.5,
+          "max": 9.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 6.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-personal-ai-agent-ecosystem/8ce9eecd-89c9-4eb7-ab28-e366965e89c5.jsonl",
+      "expectedOverall": {
+        "min": 6.5,
+        "max": 8
+      },
+      "expectedYegge": {
+        "min": 6,
+        "max": 6
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "context_discipline": {
+          "min": 5.5,
+          "max": 6.5
+        },
+        "verification_behaviour": {
+          "min": 5.5,
+          "max": 6.5
+        },
+        "evidence_seeking": {
+          "min": 5.5,
+          "max": 7.5
+        },
+        "plan_before_code": {
+          "min": 7.5,
+          "max": 9.5
+        },
+        "trust_calibration": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "session_hygiene": {
+          "min": 3.5,
+          "max": 5.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-personal-ai-agent-ecosystem/51e7b0b6-e32a-4686-bf18-bd4da14a602c.jsonl",
+      "expectedOverall": {
+        "min": 5.5,
+        "max": 7
+      },
+      "expectedYegge": {
+        "min": 5,
+        "max": 6
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "context_discipline": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "verification_behaviour": {
+          "min": 4.5,
+          "max": 5.5
+        },
+        "evidence_seeking": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "plan_before_code": {
+          "min": 5.5,
+          "max": 6.5
+        },
+        "trust_calibration": {
+          "min": 4.5,
+          "max": 7.5
+        },
+        "session_hygiene": {
+          "min": 5.5,
+          "max": 8.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-personal-ai-agent-ecosystem/8c2c1453-360f-439c-b440-af7ae697a4af.jsonl",
+      "expectedOverall": {
+        "min": 6.7,
+        "max": 7.7
+      },
+      "expectedYegge": {
+        "min": 5,
+        "max": 6
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "context_discipline": {
+          "min": 7.5,
+          "max": 8.5
+        },
+        "verification_behaviour": {
+          "min": 5.5,
+          "max": 7.5
+        },
+        "evidence_seeking": {
+          "min": 5.5,
+          "max": 7.5
+        },
+        "plan_before_code": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "trust_calibration": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "session_hygiene": {
+          "min": 7.5,
+          "max": 9.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-AI-Factory-projects-ai-book-engine/7261c795-bfb7-4147-b071-0dc22fd9d008.jsonl",
+      "expectedOverall": {
+        "min": 3.5,
+        "max": 5.5
+      },
+      "expectedYegge": {
+        "min": 3,
+        "max": 4
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 2.5,
+          "max": 4.5
+        },
+        "context_discipline": {
+          "min": 2.5,
+          "max": 5.5
+        },
+        "verification_behaviour": {
+          "min": 3.5,
+          "max": 5.5
+        },
+        "evidence_seeking": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "plan_before_code": {
+          "min": 1.5,
+          "max": 3.5
+        },
+        "trust_calibration": {
+          "min": 3.5,
+          "max": 5.5
+        },
+        "session_hygiene": {
+          "min": 2.5,
+          "max": 3.5
+        },
+        "yegge_level": {
+          "min": 3.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-personal-ai-agent-ecosystem/6270be6a-4fce-4985-9e07-c792804ca506.jsonl",
+      "expectedOverall": {
+        "min": 7.5,
+        "max": 8.5
+      },
+      "expectedYegge": {
+        "min": 6,
+        "max": 6
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "context_discipline": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "verification_behaviour": {
+          "min": 5.5,
+          "max": 6.5
+        },
+        "evidence_seeking": {
+          "min": 5.5,
+          "max": 7.5
+        },
+        "plan_before_code": {
+          "min": 7.5,
+          "max": 9.5
+        },
+        "trust_calibration": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "session_hygiene": {
+          "min": 7.5,
+          "max": 8.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-personal-ai-agent-ecosystem/f734e5de-d20c-43d5-87d4-af0674fe36a5.jsonl",
+      "expectedOverall": {
+        "min": 6,
+        "max": 7.5
+      },
+      "expectedYegge": {
+        "min": 5,
+        "max": 5
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "context_discipline": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "verification_behaviour": {
+          "min": 4.5,
+          "max": 7.5
+        },
+        "evidence_seeking": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "plan_before_code": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "trust_calibration": {
+          "min": 4.5,
+          "max": 5.5
+        },
+        "session_hygiene": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-personal-ai-agent-ecosystem/182b8761-d468-445d-a54d-9d6462d49956.jsonl",
+      "expectedOverall": {
+        "min": 6,
+        "max": 7.5
+      },
+      "expectedYegge": {
+        "min": 5,
+        "max": 5
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 6.5,
+          "max": 7.5
+        },
+        "context_discipline": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "verification_behaviour": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "evidence_seeking": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "plan_before_code": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "trust_calibration": {
+          "min": 3.5,
+          "max": 6.5
+        },
+        "session_hygiene": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-personal-ai-agent-ecosystem/2acc44ba-8648-484f-81d0-ad069c93df70.jsonl",
+      "expectedOverall": {
+        "min": 4.5,
+        "max": 6
+      },
+      "expectedYegge": {
+        "min": 4,
+        "max": 4
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 3.5,
+          "max": 4.5
+        },
+        "context_discipline": {
+          "min": 5.5,
+          "max": 6.5
+        },
+        "verification_behaviour": {
+          "min": 2.5,
+          "max": 4.5
+        },
+        "evidence_seeking": {
+          "min": 2.5,
+          "max": 4.5
+        },
+        "plan_before_code": {
+          "min": 2.5,
+          "max": 4.5
+        },
+        "trust_calibration": {
+          "min": 4.5,
+          "max": 5.5
+        },
+        "session_hygiene": {
+          "min": 5.5,
+          "max": 6.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-personal-ai-agent-ecosystem/a18b2212-a8a6-4013-a07e-7420492e471f.jsonl",
+      "expectedOverall": {
+        "min": 5,
+        "max": 6.5
+      },
+      "expectedYegge": {
+        "min": 4,
+        "max": 5
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 2.5,
+          "max": 4.5
+        },
+        "context_discipline": {
+          "min": 5.5,
+          "max": 7.5
+        },
+        "verification_behaviour": {
+          "min": 2.5,
+          "max": 4.5
+        },
+        "evidence_seeking": {
+          "min": 1.5,
+          "max": 3.5
+        },
+        "plan_before_code": {
+          "min": 2.5,
+          "max": 5.5
+        },
+        "trust_calibration": {
+          "min": 2.5,
+          "max": 3.5
+        },
+        "session_hygiene": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-personal-ai-agent-ecosystem/2e3387c1-6d64-4dd1-af27-cebc501c8081.jsonl",
+      "expectedOverall": {
+        "min": 7,
+        "max": 8.5
+      },
+      "expectedYegge": {
+        "min": 6,
+        "max": 6
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 7.5,
+          "max": 9.5
+        },
+        "context_discipline": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "verification_behaviour": {
+          "min": 5.5,
+          "max": 6.5
+        },
+        "evidence_seeking": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "plan_before_code": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "trust_calibration": {
+          "min": 4.5,
+          "max": 6.5
+        },
+        "session_hygiene": {
+          "min": 8.5,
+          "max": 9.5
+        },
+        "yegge_level": {
+          "min": 4.5,
+          "max": 7.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.225Z"
+    },
+    {
+      "transcriptPath": "/Users/gregario/.claude/projects/-Users-gregario-Projects-ClaudeCode-AI-Factory-projects-ai-book-engine/d5c9d04c-1b6a-4bd1-91cd-217eaf51742b.jsonl",
+      "expectedOverall": {
+        "min": 5.5,
+        "max": 7
+      },
+      "expectedYegge": {
+        "min": 4,
+        "max": 4
+      },
+      "axisRanges": {
+        "task_decomposition": {
+          "min": 5.5,
+          "max": 6.5
+        },
+        "context_discipline": {
+          "min": 6.5,
+          "max": 8.5
+        },
+        "verification_behaviour": {
+          "min": 4.5,
+          "max": 5.5
+        },
+        "evidence_seeking": {
+          "min": 3.5,
+          "max": 5.5
+        },
+        "plan_before_code": {
+          "min": 5.5,
+          "max": 7.5
+        },
+        "trust_calibration": {
+          "min": 4.5,
+          "max": 5.5
+        },
+        "session_hygiene": {
+          "min": 7.5,
+          "max": 8.5
+        },
+        "yegge_level": {
+          "min": 3.5,
+          "max": 5.5
+        }
+      },
+      "lastUpdated": "2026-06-10T21:16:00.226Z"
+    }
+  ]
+}

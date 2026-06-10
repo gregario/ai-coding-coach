@@ -143,7 +143,9 @@ export async function runEvalHarness(options: HarnessOptions): Promise<EvalRepor
     }
   }
 
-  const maxStdDevPerAxis = SCORING_AXES.map((axis) => {
+  const CLASSIFICATION_AXES = new Set(["yegge_level"]);
+  const scorableAxes = SCORING_AXES.filter((a) => !CLASSIFICATION_AXES.has(a.key));
+  const maxStdDevPerAxis = scorableAxes.map((axis) => {
     const stdDevs = results.map((r) => r.axisStats.get(axis.key)?.stdDev ?? 0);
     return Math.max(...stdDevs);
   });
@@ -186,12 +188,14 @@ export function formatReport(report: EvalReport): string {
   lines.push("| Axis | Max StdDev | Mean of Means | Status |");
   lines.push("|------|-----------|---------------|--------|");
 
+  const CLASSIFICATION_AXES = new Set(["yegge_level"]);
   for (const axis of SCORING_AXES) {
     const stdDevs = report.results.map((r) => r.axisStats.get(axis.key)?.stdDev ?? 0);
     const maxSd = Math.max(...stdDevs);
     const means = report.results.map((r) => r.axisStats.get(axis.key)?.mean ?? 0);
     const meanOfMeans = means.reduce((a, b) => a + b, 0) / means.length;
-    const status = maxSd < 1.5 ? "✅" : "❌";
+    const isClassification = CLASSIFICATION_AXES.has(axis.key);
+    const status = isClassification ? "ℹ️" : maxSd < 1.5 ? "✅" : "❌";
     lines.push(
       `| ${axis.name} | ${maxSd.toFixed(2)} | ${meanOfMeans.toFixed(1)} | ${status} |`
     );
