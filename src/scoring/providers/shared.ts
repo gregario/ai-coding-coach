@@ -95,11 +95,17 @@ export function validateAndBuildScore(raw: unknown): SessionScore {
     );
   }
 
+  const axes = data.axes as AxisScore[];
+  const yeggeAxis = axes.find((a) => a.axis === "yegge_level");
+  if (yeggeAxis && yeggeAxis.score >= 1 && yeggeAxis.score <= 8) {
+    yeggeAxis.score = Math.round((yeggeAxis.score / 8) * 10 * 10) / 10;
+  }
+
   return {
     rubricVersion: RUBRIC_VERSION,
     overallScore: data.overallScore as number,
     yeggeLevel: data.yeggeLevel as number,
-    axes: data.axes as AxisScore[],
+    axes,
     summary: data.summary as string,
     topSuggestions: data.topSuggestions as string[],
   };
