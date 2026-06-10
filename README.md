@@ -96,4 +96,6 @@ Pass criteria:
 
 ## License
 
-MIT
+GNU Affero General Public License v3.0 (AGPLv3) with commercial exemption option.
+
+Open source projects are free to use under AGPLv3. Organizations requiring proprietary use can obtain a commercial license exemption. See `LICENSE` for details.
