@@ -1,7 +1,9 @@
 node_modules/
-dist/
+dist
 *.tsbuildinfo
 .DS_Store
 *.db
 .env
 .env.*
+eval-baseline.json
+eval-manifest.json

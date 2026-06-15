@@ -9,29 +9,44 @@ Reads your Claude Code transcripts and scores your interaction quality across 8 
 ## Install
 
 ```bash
-git clone https://github.com/gregario/ai-coding-coach.git
-cd ai-coding-coach
-npm install
+npm install -g ai-coding-coach
+```
+
+Or run without installing:
+
+```bash
+npx ai-coding-coach score
 ```
 
 ## Usage
 
 ```bash
 # Score your most recent session
-npx tsx src/cli/index.ts score
+ai-coding-coach score
 
 # Score a specific transcript
-npx tsx src/cli/index.ts score --path ~/.claude/projects/my-project/abc123.jsonl
+ai-coding-coach score --path ~/.claude/projects/my-project/abc123.jsonl
 
 # View history
-npx tsx src/cli/index.ts history
+ai-coding-coach history
 
 # Open the dashboard
-npx tsx src/cli/index.ts dashboard
+ai-coding-coach dashboard
 
 # Run eval harness (rubric stability testing)
-npx tsx src/cli/index.ts eval --provider bedrock
+ai-coding-coach eval --provider bedrock
 ```
+
+## Claude Code skill
+
+A `/coach` skill is included for direct integration with Claude Code. To install:
+
+```bash
+mkdir -p ~/.claude/skills/coach
+cp $(npm root -g)/ai-coding-coach/skill/coach.md ~/.claude/skills/coach/SKILL.md
+```
+
+Then use `/coach` in any Claude Code session to score your last session inline.
 
 ## Provider setup
 
@@ -84,10 +99,10 @@ Validates rubric stability across transcripts:
 
 ```bash
 # Create eval-manifest.json with paths to 20 transcripts
-npx tsx src/cli/index.ts eval --provider bedrock --runs 3
+ai-coding-coach eval --provider bedrock --runs 3
 
 # Save baseline for regression detection
-npx tsx src/cli/index.ts eval --provider bedrock --save-baseline
+ai-coding-coach eval --provider bedrock --save-baseline
 ```
 
 Pass criteria:
